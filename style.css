@@ -1,0 +1,50 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    width: 800px;
+    height: 800px;
+    margin: 0px auto;
+}
+
+h1{
+    text-align: center;
+    font-style: oblique;
+    color: darkslateblue;
+}
+h4{
+    text-align: center;
+    font-style: italic;
+    color: blue;
+}
+p{
+    font-size: 12px;
+    font-weight: 200;
+    font-style: italic;
+}
+#details{
+    color: cadetblue;
+}
+
+.obj{
+    width: 99%;
+    padding: 5px;
+    background-color: cadetblue;
+    border: 1px solid skyblue;
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+ul{
+    font-size: 12px;
+    font-style: italic;
+    margin-left: 50px;
+}
+
+ul span{
+    font-size: 12px;
+    color: rgba(154, 45, 129, 0.658);
+}
