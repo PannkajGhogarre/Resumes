@@ -13,9 +13,9 @@ body{
 }
 
 .resume{
-	width: 800px;
+	width: 100%;
 	background: #fff;
-	margin: 25px auto;
+	margin: 0px auto;
 	display: flex;
 }
 
@@ -42,16 +42,20 @@ body{
 .pb{
 	padding-bottom: 20px;
 }
+/* .pb .title{
+	text-align: left;
+	font-size: 20px;
+} */
 
 .title{
 	font-size: 24px;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 5px;
+	/* letter-spacing: 5px; */
 	padding-bottom: 10px;
 	color: #3525af;
 	position: relative;
-	text-align: right;
+	/* text-align: right; */
 	margin-bottom: 15px;
 }
 
@@ -60,20 +64,20 @@ body{
 	position: absolute;
 	top: 35px;
 	right: 0;
-	width: 50px;
+	width: 0px;
 	height: 3px;
 	background: #3525af;
 }
 
 .left .icon{
-	font-size: 20px;
+	font-size: 12px;
 	color: #9153c9;
 }
 
 .left .text{
 	color: #9153c9;
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 12px;
 }
 
 .contact .li_wrap{
@@ -84,8 +88,8 @@ body{
 }
 
 .contact .li_wrap .icon{
-	width: 30px;
-	height: 40px;
+	width: 20px;
+	height: 25px;
 	background: #fff;
 	border-radius: 10px;
 	display: flex;
@@ -100,17 +104,21 @@ body{
 	color: #fff;
 }
 
-.skills ul,
-.hobbies ul{
+.skills ul{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content:space-between;
 }
+/* .hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-between;
+} */
 
-.skills .li_wrap,
-.hobbies .li_wrap{
-	width: 100px;
-	height: 80px;
+.skills .li_wrap
+{
+	width: 65px;
+	height: 50px;
 	margin-bottom: 15px;
 	border-radius: 15px;
 	display: flex;
@@ -120,23 +128,22 @@ body{
 }
 
 .skills .li_wrap{
-	background: #fff;
+	background: #21124e;
 }
 
-.skills .li_wrap .text,
-.hobbies .li_wrap .text{
+.skills .li_wrap .text{
 	margin-top: 5px;
 }
 
-.hobbies .li_wrap{
+/* .hobbies .li_wrap{
 	border: 2px solid #fff;
-}
+} */
 
-.hobbies .li_wrap .icon,
-.hobbies .li_wrap .text{
+.hobbies .li_wrap .icon{
 	color: #fff;
 }
 
+.skills .li_wrap:hover,
 .hobbies .li_wrap:hover{
 	background: #fff;
 }
@@ -154,15 +161,17 @@ body{
 }
 
 .header .name{
-	font-size: 52px;
+	font-size: 48px;
 	text-transform: uppercase;
 	font-weight: 700;
 	color: #3525af;
+	font-style: italic;
 }
 
 .header .role{
 	font-weight: 300;
 	font-size: 20px;
+	color: #9153c9;
 }
 
 .header .about{
@@ -173,6 +182,8 @@ body{
 .right_inner{
 	padding: 30px;
 	color: #292b2f;
+	text-align: left;
+	background-color: rgb(210, 233, 234);
 }
 
 .right_inner .education{
@@ -185,8 +196,9 @@ body{
 }
 
 .right_inner .li_wrap .date {
-    width: 125px;
+    width: 150px;
     color: #9153c9;
+	font-style: italic;
 }
 
 .right_inner .li_wrap .info{
@@ -200,7 +212,7 @@ body{
 	font-weight: 700;
 	letter-spacing: 2px;
 	color: #9153c9;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .right_inner .li_wrap .info_com{
@@ -232,4 +244,9 @@ body{
 	width: 2px;
 	height: 90%;
 	background: #9153c9;
+}
+
+.right_inner .exp .title,
+.right_inner .education .title{
+	text-align: left;
 }
